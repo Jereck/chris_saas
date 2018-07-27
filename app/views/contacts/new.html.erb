@@ -3,7 +3,7 @@
 
     <%= flash[:error] %>
 
-    <%= form_for "/contacts" do |f| %>
+    <%= form_for @contact do |f| %>
     <div class="form-group">
         <%= f.label :name %>
         <%= f.text_field :name, class: "form-control" %>
