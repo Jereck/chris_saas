@@ -32,7 +32,7 @@ gem 'hirb', '~> 0.7.3'
 gem 'devise', '~> 4.2'
 
 # Use Stripe for payment processing
-gem 'stripe', '~> 1.57', '>= 1.57.1'
+gem 'stripe', '1.48.0'
 
 # Use Figaro for ENV variables
 gem 'figaro', '~> 1.1', '>= 1.1.1'
