@@ -2,3 +2,18 @@
     <h1>Welcome to Minnow Pond</h1>
     <h3>A memebership site for weekly readings</h3>
 </div>
+
+<div class="container home-signup-links">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center">Basic Membership</h2>
+            <h4>Sign up for free and get limited access to the community</h4>
+            <%= link_to "Sign up with Basic", new_user_registration_path(plan: @basic_plan.id), class: "btn btn-primary btn-lg btn-block" %>
+        </div>
+        <div class="col">
+            <h2 class="text-center">Pro Membership</h2>
+            <h4>Sign up for the Pro Membership for just $10/month and get full access to unlimited weekly readings</h4>
+            <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan.id), class: "btn btn-primary btn-lg btn-block" %>
+        </div>
+    </div>
+</div>
