@@ -26,6 +26,9 @@ gem 'jquery-rails'
 # FontAwesome Gen
 gem 'font-awesome-sass', '~> 5.2.0'
 
+# Hirb Gem for cleaning up database display
+gem 'hirb', '~> 0.7.3'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
