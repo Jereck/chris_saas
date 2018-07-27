@@ -18,10 +18,15 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# JQuery needed for Bootstrap
+gem 'jquery-rails'
+
 # Use Bootstrap 4 for themes
 gem 'bootstrap', '~> 4.1.3'
-# JQuery needed for Bootstra
-gem 'jquery-rails'
+
+# Provides Sprockets implementations
+gem 'sprockets-rails', '~> 3.1', '>= 3.1.1'
+
 # FontAwesome Gen
 gem 'font-awesome-sass', '~> 5.2.0'
 
