@@ -31,6 +31,12 @@ gem 'hirb', '~> 0.7.3'
 # Devise gem for user authentication
 gem 'devise', '~> 4.2'
 
+# Use Stripe for payment processing
+gem 'stripe', '~> 1.57', '>= 1.57.1'
+
+# Use Figaro for ENV variables
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
