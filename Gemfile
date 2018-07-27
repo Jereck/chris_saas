@@ -23,6 +23,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap', '~> 4.1.3'
 # JQuery needed for Bootstra
 gem 'jquery-rails'
+# FontAwesome Gen
+gem 'font-awesome-sass', '~> 5.2.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
