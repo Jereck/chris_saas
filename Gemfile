@@ -42,6 +42,9 @@ gem 'stripe', '~> 1.57', '>= 1.57.1'
 # Use Figaro for ENV variables
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 
+#For Image upload
+gem "paperclip", "~> 6.0.0"
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
