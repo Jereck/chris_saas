@@ -16,3 +16,5 @@ module Saasapp
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+Paperclip.options[:command_path] = "C:\Program Files\ImageMagick-6.9.10-Q8\identify"
